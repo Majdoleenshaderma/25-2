@@ -1,0 +1,72 @@
+#area {
+    width: 220px;
+    height: 200px;
+    resize: none;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+#tit {
+    width: 220px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-color: black;
+    margin-left: auto;
+
+}
+
+.note {
+    border: 2px solid black;
+    background-color: white;
+    width: 260px;
+    height: 320px;
+    padding-left: 25px;
+    border-radius: 15px;
+
+
+
+}
+
+
+.b {
+    width: 80px;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 8px;
+    color: black;
+    margin-top: 10px;
+}
+
+.b:hover {
+    width: 80px;
+    background-color: gray;
+    border: 2px white solid;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px;
+}
+
+.but {
+    margin-left: -130px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+h3 {
+    font-size: 35px;
+    font-family: "mistral";
+    color: white;
+}
+
+#rem {
+    width: 220px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-color: black;
+    margin-left: auto;
+}
