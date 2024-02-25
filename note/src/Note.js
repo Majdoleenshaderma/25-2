@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-const randomColors = ['#ffcccc', '#ccffcc', '#ccccff', '#ffffcc'];
+const randomColors = ['#a7e8c8', '#f8b6a8', '#fdffb4', '#f7c2d6', '#c3bbec', '#c3effc'];
 
 const Note = ({ note, onRemove }) => {
     const { title, body } = note;
     const [color, setColor] = useState(randomColors[Math.floor(Math.random() * randomColors.length)]);
     const [datetimenow, setDateTime] = useState(new Date().toLocaleString())
-  // When
+    // When
 
     const noteStyle = {
         backgroundColor: color,

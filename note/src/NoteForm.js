@@ -19,8 +19,7 @@ function NoteForm({ onSubmit }) {
         setColor(''); // Reset color after submission
     };
     return (<>
-        <div>
-            <h3> Notes</h3></div>
+
 
 
         <div class="note">
